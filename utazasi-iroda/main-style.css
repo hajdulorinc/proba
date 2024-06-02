@@ -1,0 +1,187 @@
+
+#fejer {
+  color: #000000;
+}
+
+
+
+.danfo {
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH";
+  color: orange;
+}
+
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    font-size: xx-large;
+    background-color: rgb(231, 135, 2);
+    text-align: center;
+}
+
+
+nav {
+    background-color: rgb(3, 14, 230);
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    
+    
+    
+  }
+  
+ 
+  nav ul {
+    list-style-type: none; 
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+  nav ul li {
+     
+    display: inline-block;
+  }
+  
+  
+  nav ul li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+  }
+  
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: rgb(3, 14, 230);
+  }
+
+  aside {
+    width: 30%; 
+    float: left;
+
+    
+  }
+
+  /* The sidepanel menu */
+.sidepanel {
+    height: 250px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+ 
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #000000;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  aside::before {
+      content: "";
+      display: block;
+      height: 100%;
+  }
+
+  .pilot-capy {
+    display: block;
+    margin: auto;
+    align-items: baseline;
+  }
+
+#form-select {
+ background: local;
+}
+
+.welcome-txt {
+  border-width: 50%;
+  border-color: black;
+}
+
+.post {
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  margin-right: 30%;
+  margin-left: 4%;
+  padding: 12px;
+  display: block;
+  margin-block-end: 2%;
+}
+
+
+.center-block{
+  margin: auto;
+  align-items: center;
+}
+
+#test{
+  margin: auto;
+}
+.carousel-control-next,
+.carousel-control-prev /* carousel arrows */ {
+    filter: invert(100%);
+}
+
+footer {
+  background-color: #000000;
+  color:rgb(231, 135, 2) ;
+  font-size: xx-small;
+  text-align: center;
+}
+
+table tr td {
+border: 2px solid black;
+}
